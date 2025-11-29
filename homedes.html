@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      
+      <link rel="stylesheet" href="stylehomedes.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   </head>
+   <body>
+      <img id="size" src="/pexels-toni-cuenca-405031.jpg"  alt="">
+      <div class="slider owl-carousel">
+         <div class="card">
+            <div class="img">
+               <img src="OIP.jpeg" alt="">
+            </div>
+            <div class="content">
+               <div class="title">
+                  COMFORT
+               </div>
+               <div class="sub-title">
+                  aint you greedy for comfort ?
+               </div>
+               <p>
+                Comfort is essential for well-being, offering a sense of security and relaxation. It fosters mental and physical health, promoting productivity and happiness
+               </p>
+               <div class="btn">
+                  <button>Read more</button>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="diffrent.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="title">
+                  we are unique
+               </div>
+               <div class="sub-title">
+                  Dare to be Unique ?
+               </div>
+               <p>
+                Uniqueness is the essence of individuality, bringing diversity and authenticity. It ignites creativity, making each person or thing distinct and valuable in its own right..
+               </p>
+               <div class="btn">
+                  <button>Read more</button>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="avoid.jpg" alt="">
+            </div>
+            <div class="content">
+               <div class="title">
+                  why be in queue?
+               </div>
+               <div class="sub-title">
+                ENJOY!
+               </div>
+               <p>
+                Queueing is a time-wasting activity, hindering productivity in our fast-paced lives. Efficient systems are needed to minimize these delays and make better use of our valuable time.
+               </p>
+               <div class="btn">
+                  <button>Read more</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         $(".slider").owlCarousel({
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000, //2000ms = 2s;
+           autoplayHoverPause: true,
+         });
+      </script>
+   </body>
+</html>

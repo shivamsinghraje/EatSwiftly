@@ -1,0 +1,4 @@
+cart is registration 
+catalogue is login
+home is another 
+registration.html is scan and order 
